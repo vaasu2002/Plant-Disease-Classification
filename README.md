@@ -1,21 +1,21 @@
-# Plant Disease Classification
+# **Plant Disease Classification**
 
-- **Monk AI hyperparamter tuning**
-- Decided model = resnet50
-- Train-acc: 0.926
-- Train-loss: 0.241
-- Val-acc: 0.965104
-- Val-loss: 0.126
+  - **Monk AI hyperparamter tuning**
+  - Decided model = resnet50
+  - Train-acc: 0.926
+  - Train-loss: 0.241
+  - Val-acc: 0.965104
+  - Val-loss: 0.126
 
 
 
-Performing hyperparameter tuning and deciding best Convolutional neural network (CNN) architecture using MONK AI to classify 39 different plant images using the data gathered by [Plant Village](https://plantvillage.psu.edu/). Tunned the hyperparameters like batch_size, input_sizes, learning_rate, optimizers, etc, and then trained and compared different experiments.
+Performing hyperparameter tuning and deciding best Convolutional neural network (CNN) architecture using MONK AI to classify 39 different plant leaf images using the data gathered by [Plant Village](https://plantvillage.psu.edu/). Tunned the hyperparameters like batch_size, input_sizes, learning_rate, optimizers, etc, and then trained and compared different experiments.
 
 ### [DATASET](https://drive.google.com/file/d/1AKb5-p_cxLh9HvIXHmuBbUDYfCi0UqjW/view?usp=sharing)
 ### LABELS:-
-1)  Strawberry___healthy
+1)  Strawberry healthy
 2)  background
-3)  Grape___Black_rot
+3)  Grape Black_rot
 4)  Potato___Early_blight
 5)  Blueberry___healthy
 6)  Corn_(maize)___healthy
